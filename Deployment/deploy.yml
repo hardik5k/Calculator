@@ -9,4 +9,4 @@
         name: hardik5k/calculator:latest
         source: pull
     - name: Creating container
-      shell: docker create --name Calculator hardik5k/calculator
+      shell: docker run -it --name Calculator hardik5k/calculator
