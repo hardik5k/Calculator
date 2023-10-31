@@ -8,5 +8,5 @@
       docker_image:
         name: hardik5k/calculator:latest
         source: pull
-    - name: Running container
-      shell: docker run -it -d --name Calculator hardik5k/calculator
+    - name: Creating container
+      shell: docker create --name Calculator hardik5k/calculator
