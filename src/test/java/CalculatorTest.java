@@ -42,7 +42,7 @@ public class CalculatorTest {
     public void test_mul_negative(){
         int a = 1;
         int b = 2;
-        int expectedResult = 0;
+        int expectedResult = 3;
         Assert.assertNotEquals(expectedResult, Main.mul(a, b));
     }@Test
     public void test_div_positive(){
